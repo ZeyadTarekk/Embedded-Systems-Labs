@@ -2,6 +2,7 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
+#include<Arduino.h>
 
 // SPI Intialzation for The master
 void SPI_init()

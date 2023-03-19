@@ -1,6 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
-
+#include<Arduino.h>
 void SPI_Init()
 {
   DDRB &= ~(1 << PB2);
