@@ -1,0 +1,953 @@
+object Screen1: TMeDiagram
+  LastSelControl = 'BoxRound3'
+  NettoExportOffset = 3
+  AutomaticNodes = False
+  AutoScroll = True
+  AutoPage = False
+  Background.Scroll = True
+  Background.Style = biTile
+  Background.Visible = False
+  Background.Gradient.Direction = grTopBottom
+  Background.Gradient.StartColor = clWhite
+  Background.Gradient.EndColor = clYellow
+  Background.Gradient.Visible = False
+  Background.PrintGradient = False
+  SnapGrid.Active = True
+  SnapGrid.Force = False
+  SnapGrid.Visible = False
+  SnapGrid.SizeX = 8.000000000000000000
+  SnapGrid.SizeY = 8.000000000000000000
+  SnapGrid.Style = gsLines
+  SnapGrid.SnapToRuler = False
+  ShowLinkPoints = False
+  LeftRuler.Visible = False
+  LeftRuler.Divisions = 10
+  LeftRuler.Font.Charset = DEFAULT_CHARSET
+  LeftRuler.Font.Color = clWindowText
+  LeftRuler.Font.Height = -9
+  LeftRuler.Font.Name = 'Arial'
+  LeftRuler.Font.Style = []
+  LeftRuler.Units = unPixel
+  LeftRuler.MinorTickLength = 4
+  LeftRuler.MajorTickLength = 6
+  LeftRuler.Color = clWhite
+  LeftRuler.TickColor = clBlack
+  LeftRuler.Size = 16
+  LeftRuler.AutoFactor = True
+  LeftRuler.GridColor = clBlack
+  TopRuler.Visible = False
+  TopRuler.Divisions = 10
+  TopRuler.Font.Charset = DEFAULT_CHARSET
+  TopRuler.Font.Color = clWindowText
+  TopRuler.Font.Height = -9
+  TopRuler.Font.Name = 'Arial'
+  TopRuler.Font.Style = []
+  TopRuler.Units = unPixel
+  TopRuler.MinorTickLength = 4
+  TopRuler.MajorTickLength = 6
+  TopRuler.Color = clWhite
+  TopRuler.TickColor = clBlack
+  TopRuler.Size = 16
+  TopRuler.AutoFactor = True
+  TopRuler.GridColor = clBlack
+  Zoom = 183
+  BorderColor = clGray
+  MouseWheelMode = mwOff
+  ActiveLayers = 1
+  Layers = <
+    item
+      LayerName = 'Layer0'
+    end>
+  LinkCursor = crHandPoint
+  PanCursor = crHandPoint
+  ZoomCursor = crDefault
+  IgnoreScreenDPI = False
+  ShowCrossIndicators = False
+  PageLines.Visible = False
+  PageLines.Pen.Style = psDot
+  KeyActions = [kaEscape, kaMove, kaPage, kaResize, kaSelect]
+  HandlesStyle = hsVisio
+  SmoothMode = smAntiAlias
+  TextRenderingMode = tmAntiAlias
+  SelectionMode = slmMultiple
+  CanMoveOutOfBounds = False
+  PageSettings.PaperName = '320x240'
+  PageSettings.PaperId = 1
+  PageSettings.PaperWidth = 84.666666666666670000
+  PageSettings.PaperHeight = 63.500000000000000000
+  PageSettings.Orientation = dpoLandscape
+  PageSettings.LeftMarginStr = '25.4'
+  PageSettings.TopMarginStr = '25.4'
+  PageSettings.RightMarginStr = '25.4'
+  PageSettings.BottomMarginStr = '25.4'
+  RulerAutoUnit = False
+  MeasUnit = duCenti
+  WheelZoom = False
+  WheelZoomIncrement = 10
+  WheelZoomMin = 10
+  WheelZoomMax = 500
+  BorderStyle = bsSingle
+  Color = 65382
+  ParentColor = False
+  Static_ = False
+  StartScreen = True
+  CurrLayer = 0
+  Active = True
+  SniffObjectEvents = False
+  ToneUp = 'XYLOPHONE'
+  ToneDown = 'XYLOPHONE'
+  TonePress = 'XYLOPHONE'
+  ToneTagChange = 'XYLOPHONE'
+  PitchUp = 'A5'
+  PitchDown = 'A5'
+  PitchTagChange = 'A5'
+  PitchPress = 'A5'
+  VolumeUp = 100
+  VolumeDown = 100
+  VolumeTagChange = 100
+  VolumePress = 100
+  SoundUp = 'None'
+  SoundDown = 'None'
+  SoundTagChange = 'None'
+  SoundPress = 'None'
+  ShowRuler = False
+  DControlNames.Strings = (
+    'BoxRound1'
+    'Label2'
+    'BoxRound2'
+    'Label3'
+    'BoxRound3'
+    'Label1')
+  StaticResourceSize = 0
+  Orientation = 1
+  ExplicitWidth = 544
+  ExplicitHeight = 645
+  object BoxRound1: TDgrBoxRound
+    Tag = 255
+    Left = 8.000000000000000000
+    Top = 6.000000000000000000
+    Width = 308.000000000000000000
+    Height = 61.000000000000000000
+    Color = clSilver
+    Transparent = False
+    Transparency = 0
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = clYellow
+    Gradient.EndColor = 3381759
+    Gradient.Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    OnClick = 'BoxRound1OnClick'
+    GradientBackup = False
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    PressColorEnabled = False
+    Static_ = False
+    CornerRadius = 20
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Opacity = 100
+    Visible = True
+    Active = True
+    Collapsed = False
+  end
+  object Label2: TDgrLabel
+    Tag = 255
+    Left = 74.000000000000000000
+    Top = 23.000000000000000000
+    Width = 161.033203125000000000
+    Height = 35.964843750000000000
+    Brush.Style = bsClear
+    SelBrush.Style = bsClear
+    Color = clWhite
+    SelColor = clWhite
+    Shape = bsNoShape
+    LinkPoints = <>
+    ClipText = False
+    TextCells = <
+      item
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -27
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        DControlAngle = True
+        Width = 100.000000000000000000
+        Height = 100.000000000000000000
+        Text = 'Zeyad Tarek'
+        Clip = False
+        WordWrap = False
+        DControlFont = False
+        Alignment = taCenter
+        VertAlign = vaCenter
+        RotateFont = True
+        CellFrame.Color = clWhite
+        CellFrame.Transparent = True
+        CellFrame.AutoFrame = False
+        CellFrame.AutoFrameMargin = 0
+        CellFrame.Visible = False
+        Visible = True
+        ReadOnly = False
+        Transparency = 0
+      end>
+    Restrictions = [crNoResize, crNoRotation]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    DiagramFont = False
+    MinWidth = 40
+    MinHeight = 40
+    Shadow.Visible = False
+    Shadow.Color = clGray
+    Shadow.HOffset = 2
+    Shadow.VOffset = 2
+    Shadow.Transparency = 0
+    ParentShowHint = True
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = clWhite
+    Gradient.EndColor = clYellow
+    Gradient.Visible = False
+    BitmapMode = bmStretch
+    BitmapTransparent = False
+    Metafile.Data = {04000000}
+    PictureMode = pmStretch
+    Transparent = False
+    Cursor = crDefault
+    Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    Transparency = 0
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    Static_ = False
+    StartChar = 32
+    EndChar = 127
+    TextAlign = _taNoAlignmentObject
+    VerticalText = False
+    SystemFont = False
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Active = True
+    MaxLength = 0
+    Collapsed = False
+  end
+  object BoxRound2: TDgrBoxRound
+    Tag = 255
+    Left = 12.000000000000000000
+    Top = 81.000000000000000000
+    Width = 300.000000000000000000
+    Height = 61.000000000000000000
+    Color = clSilver
+    Transparent = False
+    Transparency = 0
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = 16763955
+    Gradient.EndColor = 16724787
+    Gradient.Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    OnClick = 'BoxRound2OnClick'
+    GradientBackup = False
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    PressColorEnabled = False
+    Static_ = False
+    CornerRadius = 20
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Opacity = 100
+    Visible = True
+    Active = True
+    Collapsed = False
+  end
+  object Label3: TDgrLabel
+    Tag = 255
+    Left = 61.000000000000000000
+    Top = 95.000000000000000000
+    Width = 178.870605468750000000
+    Height = 35.964843750000000000
+    Brush.Style = bsClear
+    SelBrush.Style = bsClear
+    Color = clWhite
+    SelColor = clWhite
+    Shape = bsNoShape
+    LinkPoints = <>
+    ClipText = False
+    TextCells = <
+      item
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -27
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        DControlAngle = True
+        Width = 100.000000000000000000
+        Height = 100.000000000000000000
+        Text = 'Ahmed Hosny'
+        Clip = False
+        WordWrap = False
+        DControlFont = False
+        Alignment = taCenter
+        VertAlign = vaCenter
+        RotateFont = True
+        CellFrame.Color = clWhite
+        CellFrame.Transparent = True
+        CellFrame.AutoFrame = False
+        CellFrame.AutoFrameMargin = 0
+        CellFrame.Visible = False
+        Visible = True
+        ReadOnly = False
+        Transparency = 0
+      end>
+    Restrictions = [crNoResize, crNoRotation]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    DiagramFont = False
+    MinWidth = 40
+    MinHeight = 40
+    Shadow.Visible = False
+    Shadow.Color = clGray
+    Shadow.HOffset = 2
+    Shadow.VOffset = 2
+    Shadow.Transparency = 0
+    ParentShowHint = True
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = clWhite
+    Gradient.EndColor = clYellow
+    Gradient.Visible = False
+    BitmapMode = bmStretch
+    BitmapTransparent = False
+    Metafile.Data = {04000000}
+    PictureMode = pmStretch
+    Transparent = False
+    Cursor = crDefault
+    Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    Transparency = 0
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    Static_ = False
+    StartChar = 32
+    EndChar = 127
+    TextAlign = _taNoAlignmentObject
+    VerticalText = False
+    SystemFont = False
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Active = True
+    MaxLength = 0
+    Collapsed = False
+  end
+  object BoxRound3: TDgrBoxRound
+    Tag = 255
+    Left = 8.000000000000000000
+    Top = 165.000000000000000000
+    Width = 308.000000000000000000
+    Height = 61.000000000000000000
+    Color = clSilver
+    Transparent = False
+    Transparency = 0
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = 16751103
+    Gradient.EndColor = 13369599
+    Gradient.Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    OnClick = 'BoxRound3OnClick'
+    GradientBackup = False
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    PressColorEnabled = False
+    Static_ = False
+    CornerRadius = 20
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Opacity = 100
+    Visible = True
+    Active = True
+    Collapsed = False
+  end
+  object Label1: TDgrLabel
+    Tag = 255
+    Left = 40.000000000000000000
+    Top = 176.000000000000000000
+    Width = 239.937011718750000000
+    Height = 35.964843750000000000
+    Brush.Style = bsClear
+    SelBrush.Style = bsClear
+    Color = clWhite
+    SelColor = clWhite
+    Shape = bsNoShape
+    LinkPoints = <>
+    ClipText = False
+    TextCells = <
+      item
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlack
+        Font.Height = -27
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        DControlAngle = True
+        Width = 100.000000000000000000
+        Height = 100.000000000000000000
+        Text = 'Abdelrahman Fathi'
+        Clip = False
+        WordWrap = False
+        DControlFont = False
+        Alignment = taCenter
+        VertAlign = vaCenter
+        RotateFont = True
+        CellFrame.Color = clWhite
+        CellFrame.Transparent = True
+        CellFrame.AutoFrame = False
+        CellFrame.AutoFrameMargin = 0
+        CellFrame.Visible = False
+        Visible = True
+        ReadOnly = False
+        Transparency = 0
+      end>
+    Restrictions = [crNoResize, crNoRotation]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    DiagramFont = False
+    MinWidth = 40
+    MinHeight = 40
+    Shadow.Visible = False
+    Shadow.Color = clGray
+    Shadow.HOffset = 2
+    Shadow.VOffset = 2
+    Shadow.Transparency = 0
+    ParentShowHint = True
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = clWhite
+    Gradient.EndColor = clYellow
+    Gradient.Visible = False
+    BitmapMode = bmStretch
+    BitmapTransparent = False
+    Metafile.Data = {04000000}
+    PictureMode = pmStretch
+    Transparent = False
+    Cursor = crDefault
+    Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    Transparency = 0
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    Static_ = False
+    StartChar = 32
+    EndChar = 127
+    TextAlign = _taNoAlignmentObject
+    VerticalText = False
+    SystemFont = False
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Active = True
+    MaxLength = 0
+    Collapsed = False
+  end
+end
+object Screen2: TMeDiagram
+  LastSelControl = 'Box3'
+  NettoExportOffset = 3
+  AutomaticNodes = False
+  AutoScroll = True
+  AutoPage = False
+  Background.Scroll = True
+  Background.Style = biTile
+  Background.Visible = False
+  Background.Gradient.Direction = grTopBottom
+  Background.Gradient.StartColor = clWhite
+  Background.Gradient.EndColor = clYellow
+  Background.Gradient.Visible = False
+  Background.PrintGradient = False
+  SnapGrid.Active = False
+  SnapGrid.Force = False
+  SnapGrid.Visible = False
+  SnapGrid.SizeX = 8.000000000000000000
+  SnapGrid.SizeY = 8.000000000000000000
+  SnapGrid.Style = gsLines
+  SnapGrid.SnapToRuler = False
+  ShowLinkPoints = False
+  LeftRuler.Visible = False
+  LeftRuler.Divisions = 10
+  LeftRuler.Font.Charset = DEFAULT_CHARSET
+  LeftRuler.Font.Color = clWindowText
+  LeftRuler.Font.Height = -9
+  LeftRuler.Font.Name = 'Arial'
+  LeftRuler.Font.Style = []
+  LeftRuler.Units = unPixel
+  LeftRuler.MinorTickLength = 4
+  LeftRuler.MajorTickLength = 6
+  LeftRuler.Color = clWhite
+  LeftRuler.TickColor = clBlack
+  LeftRuler.Size = 16
+  LeftRuler.AutoFactor = True
+  LeftRuler.GridColor = clBlack
+  TopRuler.Visible = False
+  TopRuler.Divisions = 10
+  TopRuler.Font.Charset = DEFAULT_CHARSET
+  TopRuler.Font.Color = clWindowText
+  TopRuler.Font.Height = -9
+  TopRuler.Font.Name = 'Arial'
+  TopRuler.Font.Style = []
+  TopRuler.Units = unPixel
+  TopRuler.MinorTickLength = 4
+  TopRuler.MajorTickLength = 6
+  TopRuler.Color = clWhite
+  TopRuler.TickColor = clBlack
+  TopRuler.Size = 16
+  TopRuler.AutoFactor = True
+  TopRuler.GridColor = clBlack
+  Zoom = 166
+  BorderColor = clGray
+  MouseWheelMode = mwOff
+  ActiveLayers = 1
+  Layers = <
+    item
+      LayerName = 'Layer0'
+    end>
+  LinkCursor = crHandPoint
+  PanCursor = crHandPoint
+  ZoomCursor = crDefault
+  IgnoreScreenDPI = False
+  ShowCrossIndicators = False
+  PageLines.Visible = False
+  PageLines.Pen.Style = psDot
+  KeyActions = [kaEscape, kaMove, kaPage, kaResize, kaSelect]
+  HandlesStyle = hsVisio
+  SmoothMode = smAntiAlias
+  TextRenderingMode = tmAntiAlias
+  SelectionMode = slmMultiple
+  CanMoveOutOfBounds = False
+  PageSettings.PaperName = '320x240'
+  PageSettings.PaperId = 1
+  PageSettings.PaperWidth = 84.666666666666670000
+  PageSettings.PaperHeight = 63.500000000000000000
+  PageSettings.Orientation = dpoLandscape
+  PageSettings.LeftMarginStr = '25.4'
+  PageSettings.TopMarginStr = '25.4'
+  PageSettings.RightMarginStr = '25.4'
+  PageSettings.BottomMarginStr = '25.4'
+  RulerAutoUnit = False
+  MeasUnit = duCenti
+  WheelZoom = False
+  WheelZoomIncrement = 10
+  WheelZoomMin = 10
+  WheelZoomMax = 500
+  BorderStyle = bsSingle
+  Color = clWhite
+  ParentColor = False
+  Static_ = False
+  StartScreen = False
+  CurrLayer = 0
+  Active = True
+  SniffObjectEvents = False
+  ToneUp = 'XYLOPHONE'
+  ToneDown = 'XYLOPHONE'
+  TonePress = 'XYLOPHONE'
+  ToneTagChange = 'XYLOPHONE'
+  PitchUp = 'A5'
+  PitchDown = 'A5'
+  PitchTagChange = 'A5'
+  PitchPress = 'A5'
+  VolumeUp = 100
+  VolumeDown = 100
+  VolumeTagChange = 100
+  VolumePress = 100
+  SoundUp = 'None'
+  SoundDown = 'None'
+  SoundTagChange = 'None'
+  SoundPress = 'None'
+  ShowRuler = False
+  DControlNames.Strings = (
+    'Box2'
+    'Box3'
+    'Image1')
+  StaticResourceSize = 0
+  Orientation = 1
+  ExplicitWidth = 200
+  ExplicitHeight = 200
+  object Box2: TDgrBox
+    Tag = 255
+    Top = 1.000000000000000000
+    Width = 318.000000000000000000
+    Height = 84.000000000000000000
+    Color = clSilver
+    Transparent = False
+    Transparency = 0
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = clRed
+    Gradient.EndColor = clRed
+    Gradient.Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    ColorTo = clWhite
+    GradientBackup = False
+    PressColor = 14869218
+    PressColorTo = clBlack
+    PressColorEnabled = True
+    Static_ = False
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Active = True
+    Visible = True
+    Opacity = 100
+    Collapsed = False
+  end
+  object Box3: TDgrBox
+    Tag = 255
+    Left = 1.000000000000000000
+    Top = 162.000000000000000000
+    Width = 318.000000000000000000
+    Height = 77.000000000000000000
+    Color = clSilver
+    Transparent = False
+    Transparency = 0
+    Gradient.Direction = grTopBottom
+    Gradient.StartColor = clBlack
+    Gradient.EndColor = clBlack
+    Gradient.Visible = True
+    Layer = 0
+    LayerName = 'Layer0'
+    ColorTo = clWhite
+    GradientBackup = False
+    PressColor = 14869218
+    PressColorTo = clBlack
+    PressColorEnabled = True
+    Static_ = False
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    Active = True
+    Visible = True
+    Opacity = 100
+    Collapsed = False
+  end
+  object Image1: TDgrImage
+    Tag = 255
+    Left = 130.000000000000000000
+    Top = 91.000000000000000000
+    Width = 60.000000000000000000
+    Height = 60.000000000000000000
+    Picture.Data = {
+      0A544A504547496D616765AD0D0000FFD8FFE000104A46494600010101000100
+      010000FFDB004300010101010101010101010101010101010101010101010101
+      0101010101010101010101010101010101010101010101010101010101010101
+      0101010101010101FFDB00430101010101010101010101010101010101010101
+      0101010101010101010101010101010101010101010101010101010101010101
+      01010101010101010101010101FFC0001108003C003C03012200021101031101
+      FFC4001C000002020301010000000000000000000007080009040506020AFFC4
+      002F100001040103040103030305000000000003010204050607111200081321
+      141522310941511623324252617192FFC4001B01000202030100000000000000
+      000000000607040502030809FFC4002C11000202010303030402020300000000
+      0001020304050611120013211431410722236108151681324251FFDA000C0301
+      0002110311003F00FBF8EA753A1CE5B9E47A1B8AAC7639688571690E7DA31D91
+      5F8286BC55D5AAD6482211413264D90E73DCE6478711EC0468F2E6CE9116381A
+      878B72ED6A10FA8B72AC31738A30C431DE49A458A3450A199999DD40007FE93B
+      2824671C6F2B708D4B36CC761B0F0AA598EE481E15493FA07AEFA590828C7204
+      7E6330257883CD19E62B46E70C5CD51C8CF23D1ACE4E6B9ADE5BAB55136E9270
+      EA4776790E705C731ED3BC031D8B4A3A6957C9A823B96065C5BA6F9C4DA5C8B1
+      3C86FABF9C78E2943951C900975125FC353D416B8E59F1D9F1E74DAD55066158
+      7C69FCF80ACDC55B1C625AAFA4F05F00026437B97D363DFC5A690F55FECB6431
+      149D09AB753E964E439A5D54DBD5CAAD218250481CE8456AD6E355D162C89EAA
+      D2FDB094929F39A673907F067D71DCF63648F70CD4E61C94989863D4D95C205B
+      6CD6EA62E7AF4EE58863AF2CAA26166B4B6A254B22A6FC44692432B4532491CC
+      192DB1DCEBADA738DAD74983685ECA3CD1248D2463F198E458D98A17F9664600
+      A946527A3EE336C97B45596E91DF11D3E334E58847A11F14FBB99223B8AD6B58
+      6F0486144D335AC699AC42A31A8FD937BD0134E752F168F8F3A964DB47917347
+      63615E4AC80E5B4B79432D84B935EF8D555AC95607794047442F18FC45610678
+      4AF67855DD6F2F3516D286116F6DA96A2969A301D3162E4396575464D2A181E0
+      6C82C4ADF8F2AA1B25AB24030C0977E221A4C88B10E583264884A415B398FF00
+      EBA0B52DB5902D58E4B5246AD308590049CD8F4E8CB015943A15709BBAB22024
+      6C21494E7133C6B195FC85630E789705BEDE1CCF293ED2092BCB6041661BEFD1
+      7FA9D63439609D1813233FC91E5003240FD95BCC1206D305FC5C88E6F31BDAEE
+      2E44726FB39117D7593D5DAB2BA8652195802AC3C820FB107E41F83D43236F07
+      C11E083F1D4EAA0FF505272D5088D7358F757768FDC64D1ABB65563ECD90A9DB
+      B6FF0085279905B2EC8EE4A9EFDAA5BE754E5DFDAB8FAC791C74545F8FD9EE4B
+      1DBEBD34B916ADE3F4ED4D93DAF9D088C5DB7FE3D6FC5503FC989BB3F4AEFEC8
+      6466CB6159117724B54BC991F61F0A299724F805413E37E8F3E9C207D515F7F0
+      055B8A49FF008A89A2F4E4B7BF8FCDB7FBFF0047B2ACEF32DF485322A3CB69C9
+      98D2D7E73AB34B472073195F61458CE9762DA7530756810C191F5C6924E43642
+      0B8E48F240C10D0D28E21BB893F4A332BDEEDE925EA1E230B0CC0E9F1DC9CD4B
+      159658A82E6F2E6EE922C69E06DA9C847B1940C6DCAB5A0639A6214925E4828A
+      837B902CCA25658DFE6CFB70C99504177DE24E686189C794AEB3D54D24D3903A
+      3018C714E564799280C8A36A9A53C4C003EF7A74F2FE99953371ED13CE292CC6
+      A1B0A6D68CAABE78D517ED911693178EF7B36DD5C236CD9007A6ED280A32B555
+      AF45E935F4CB5A6B2D51F52A9688CDE564B7A39F1B94BF0560A62C8C13418DC2
+      DCA114D95555BA6BB58B3936A9177CC9DBAB24248AB5D2152ED4984C2E334D58
+      CDD3AB1C5995B95A1690B7381D25B57219DD6A484C42548E2844CFDBE3CE5E7B
+      19199FAE16C3F50583A7B3750F042E97D61B27D3075F564E1D2CB7506353898B
+      DC46C7CC4865646B12020A9E500D10050808E06F1DAC8CF56ECB4770D99E43A8
+      29AB93B2B9ADB0955585777988D5B591C208D068F09D43D16B5C7EBA3806346A
+      B6257B948E397C926511C4398AF57311A2ACEB1911F53FBC4BCB186770AC6677
+      130B1B93E072C65B1C3C569995899C773543C86781571E38B9794A50D8BD89C6
+      BA470EFB51781575644C4E4B2C9DE5086D45FDAD747B45F330EC9B2AAEE81799
+      1113776CAF4FE7A516A5D73AF35860751E3353E70362EBE41F118CC7455E2C7A
+      F16D4192AB5A7BCB04717AC9AC636B5192091CC91089D6681639269839663B05
+      81C45FC5DAC6D265B32411DCB5397339E7FD756964584BBBF6956DC961655554
+      6E5C524621500BD7D3892E9BA7F844C77F94BC431794BEF75553D0571577DFDF
+      E5CBFCFF003D76BD0B743A4FCDD19D2597CB97C9D33C0CCAEFF739F8AD5735FF
+      00DA2FBFDFF9E8A5D7A59809BD460B0D3F2E5DFC563E6E43721BBB5217DC13F0
+      796E3AE73BC9DBBB6E3DB6EDD99E3D8FB8E12B2EC7F7E3CFEFA9D535F7A04F9D
+      DC36750D1792B3B7CD22A1444FF4BB25EE5B0F1F14F5EFC8DF4A9BA724544547
+      22FAB94EAA7B5774D32DD5DEEE754A83180785B1302EDCDB33229F0E548C7A94
+      78F6A6C1D449619E48FE353CE970E9512BA98076CDB12BDAAA48909B227474C7
+      F22A9E4727A371188C4D396FE432FA93D0D5A90AF39669BFC63535A85506E146
+      F35588167658D013248CAA84830FA7F3D7A998B572D4A90C14F1DDF92573B2A2
+      0C9E32376F92C4248DB2804B1F0158FDA42B820C373AAD5B04D005600B99DDC6
+      4E23255C9B1A864797BAF65BC007D782D79E14BB29D83C4A9AF141E5652E5494
+      64251A8A44B8A60CCF5FD7B529A6875D1AC8D13512BADF208F02C71F1402C19F
+      5ACAEAA8B91BE13EC1D2E21DCD47575BC3BD56CD24EA7F9B26BA155CFA78714A
+      8FAAD32C06E9D8961F655EB0E9A2E467BBB2B22B051EF730CCEDACAEF356DAE6
+      A504C7D0A4D871A543AF662F12558555A9C31633A14214915AD7F77298E657A8
+      3AAC20E3D8E5B5FE3D02B707C4EBECE8E8EE49516F77999F22B298548E67D849
+      AFBE9638B12BF251594D3DB1AF69A6CDB82B66497ABD07A924D43F4CF444D6B0
+      966B5ED70D92C5E3EADAC6406F2D3B31E320AD938D457579ED55586864E2EF4E
+      A8AB665458E381DA1F52718C18FD4F9E58EF452C3835AD667963B722D73346D6
+      9E4AF2ED20ED432BC962A1E09CF7546524ECED1B39AB98A4285A339B5BB634FB
+      1B0B2C5337B94B4B32AD31EC899F61593C22C8AE811092AB730BAB78F9258E4D
+      2E0896264F8DD5428712C219ED0D60FB85C2E44B3A5E40D44DD6CA6EADA22B95
+      1797F55761F865BB57D26CE6916A5E445445473911DF727B46A349AFA3D9E8DE
+      1C3C8CB129721938157D65FD7CE8AB2F292588D034A474DA4B628EAAFEF6F6DE
+      0D65D591D494996E2F8746AA851E53927549ABB759A68BC0CDA86BF5674A3E2C
+      E924364B906A761B591A7C9B19593DA689E4DA692A4E315A5411EBE491B6704C
+      4C5C9102B61142C9953C2634B026EED51A30EB0A18ACFE1228C9968E95CD5CC2
+      44625C9350AD3589EDDA58F99B36ADD586FD517E097F2C55EBBA41DC962F4C9A
+      717985C3D8B7432059424F94A515D3C9ABFA97444821623F1C31CAF04E219636
+      6491A44DC08C89DDCDED666FD43B6FD0C94AEE6A4D2AC1D8AEFCA2B81430C0ED
+      97DFE144A9F95F5F955FCA9F3A57BB2C33CDDABE867958E19E369FD4D7C813DA
+      E610326ACB2ABA404A37B58F114278A41144F631E2231C37351CD544687AEC4F
+      A7D299F416889CEFBCDA474DCA797BEF261A9BF9FDF9F3F1BFB78E9539E411E7
+      3328BB714CB645176F6D96E4C06C47B8D8783F3EFD4E86DA875247D3B0D020CA
+      931FEB9553B26AFA9F2827DF5109CD896B0D5608D26583D905C397F4F63FCD69
+      1EB3E90372B64B40424F53A26B7596DD79A02DC0C91BA07003142CA46FC58156
+      1F0C8C0ABAEE8C0AB11D5646E51D5B6DC0604AEE4060083B123C8F6F047953B1
+      04100F55E8780E7E3F77469A5987E4131D6F6961024E1992D250DDC1AE35D249
+      F132BEDEBAB2D9BF0691F241029A453D84A946725432134262BC589271CA6720
+      A3C8D3ED6DC6EC0B572E8261307A6B4B8A1B3956C5258C6AD616C6DCF30A3850
+      C484BF1D917E95267499116CA5F92A45D3F9614B516C8E65AD657D9B1AFF00B5
+      B630A34E6B51537D9A9284546A7FC37645FDF7EB404D3DC1C8A9CB14A46A2271
+      E228430338EFBF1F183C63E3BFBE3C76DD1176F49D2E27D012B785B95ACAA451
+      55096AA558808519D80596B5216D64E322A995AD48E44611B9465958822CE88F
+      C18E64259A5DE29E76DDDD635625649FB277D8B6DD91B31DC1FB5764AA457D45
+      4430DB57E85E696191D296D620AB720B78D558C5BBAB8F2A2C6916B6594D9C73
+      AB1902B3C955222B58FB3B19B00878F382D87F1891A695C6977118F5B8CC1A1B
+      09198B2E0D7143650AC0D1F0CF88E91231DCAA762F510B0F31564A02AABE9E0C
+      BB22B47256D0E46D8D7CEB49CCB47C230F88469A3E2F4033336E264A880E3A2A
+      6C88A877C7719151136454227AFF00A4DBAB0B1A31A3189C5ADD9AD6A7E1AD44
+      44446A7E1113F644D93A9B8ED152D7B75EC4D9088240217356BE3F1D1C6D2C6A
+      AA6759E2A35AD456250A9DC9966D818D5A18E2792C3CD1AC65FBB1BC6B1312DC
+      809A4B169A4505810BC1AC49094DBFE9C07B9059805DBC468B1E18BC3182100D
+      5E52AB0021858A5395E739380DAD6F331C84315DB2B88523C8F573DEE72E4753
+      A9D305555142A80AAA0055036000F00003C00078007803AA5EBFFFD9}
+    Layer = 0
+    LayerName = 'Layer0'
+    Visible = True
+    Active = True
+    PictureName = 'eagle.jpg'
+    ColorTo = clBlack
+    PressColor = 14869218
+    PressColorTo = clBlack
+    Ratio = 0
+    PicturePath = 'C:\Users\Zeyad Tarek\Desktop\Lab 9 - TFT & Touch Panel\eagle.jpg'
+    Static_ = False
+    PictureWidth = 0
+    PictureHeight = 0
+    VolumeUp = 0
+    VolumeDown = 0
+    VolumeClick = 0
+    VolumePress = 0
+    BlendColor = clBlack
+    OriginalWidth = 89
+    OriginalHeight = 89
+    RotationCenterLeft = 160
+    RotationCenterTop = 121
+    PictureRatio = 1
+    Transparent = True
+    Transparency = 0
+    ScaleX = 0.674157303370786500
+    ScaleY = 0.674157303370786500
+    Collapsed = False
+  end
+end
+ScreenCount=2
+ActiveScreen=Screen1
+
+PROJECT_INFO_START
+VERSION        = 8
+BOARD          = EasyMx_PRO_v7_for_STM32_ARM_9A
+DEFAULT_SCHEME = VTFT_EasyMx_PRO_v7_for_STM32_ARM
+COMPILER       = mikroC PRO for ARM
+CONTROLLER     = ILI9341_8bit
+TPCONTROLLER   = DEFAULT
+CALIBRATION    = Manual
+TP_ENABLED     = True
+DIMENSIONS     = 320x240
+
+TFT_CONNECTION_START
+TFT_BLED=GPIOE_ODR.B9
+TFT_CS=GPIOE_ODR.B15
+TFT_DataPort=GPIOE_ODR
+TFT_RD=GPIOE_ODR.B10
+TFT_RS=GPIOE_ODR.B12
+TFT_RST=GPIOE_ODR.B8
+TFT_WR=GPIOE_ODR.B11
+TFT_CONNECTION_END
+
+TP_CONNECTION_START
+DRIVEX_LEFT=GPIOB_ODR.B1
+DRIVEX_RIGHT=GPIOB_ODR.B8
+DRIVEY_UP=GPIOB_ODR.B9
+DRIVEY_DOWN=GPIOB_ODR.B0
+TP_CONNECTION_END
+
+TP_ADC_START
+READ_X_CH_NO  =8
+READ_Y_CH_NO  =9
+ADC_THRESHOLD =1500
+X_MIN         =239
+X_MAX         =3700
+Y_MIN         =224
+Y_MAX         =3679
+TP_ADC_END
+
+ADC_CODE_START
+void Init_ADC() {
+  ADC_Set_Input_Channel(_ADC_CHANNEL_8 | _ADC_CHANNEL_9);
+  ADC1_Init();
+  Delay_ms(100);
+}
+ADC_CODE_END
+
+INIT_MCU_CODE_START
+void Init_MCU() {
+  GPIO_Digital_Output(&GPIOE_BASE, _GPIO_PINMASK_9);
+  TFT_BLED = 1;
+  TFT_Set_Default_Mode();
+  TP_TFT_Set_Default_Mode();
+}
+INIT_MCU_CODE_END
+
+CUSTOM_TFT_ROUTINES = False
+AUXILIARY_CODE_START
+void Auxiliary_Code() {
+  // Place your code here
+}
+AUXILIARY_CODE_END
+
+SET_INDEX_CODE_START
+void Set_Index(unsigned short index) {
+  // Place your code here
+}
+SET_INDEX_CODE_END
+
+WRITE_COMMAND_CODE_START
+void Write_Command(unsigned short cmd) {
+  // Place your code here
+}
+WRITE_COMMAND_CODE_END
+
+WRITE_DATA_CODE_START
+void Write_Data(unsigned int _data) {
+  // Place your code here
+}
+WRITE_DATA_CODE_END
+
+EXT_MEM_TYPE=
+EXT_MEM_DECL_CODE_START
+// MMC/SD Connections
+sbit Mmc_Chip_Select           at GPIOD_ODR.B3;
+// end of MMC/SD
+// TFT Get Data globals
+unsigned long currentSector = -1, res_file_size;
+// end of TFT Get Data
+EXT_MEM_DECL_CODE_END
+
+INIT_EXT_MEM_CODE_START
+void Init_Ext_Mem() {
+  // Initialize SPI
+SPI3_Init_Advanced(_SPI_FPCLK_DIV64, _SPI_MASTER | _SPI_8_BIT |
+						 _SPI_CLK_IDLE_LOW | _SPI_FIRST_CLK_EDGE_TRANSITION |
+						 _SPI_MSB_FIRST | _SPI_SS_DISABLE | _SPI_SSM_ENABLE | _SPI_SSI_1,
+						 &_GPIO_MODULE_SPI3_PC10_11_12);
+  Delay_ms(10);
+  //--- init the FAT library
+  if (!Mmc_Fat_Init()) {
+    SPI3_CR1 = 0;
+    // reinitialize spi at higher speed
+    SPI3_Init_Advanced(_SPI_FPCLK_DIV2, _SPI_MASTER | _SPI_8_BIT |
+     				   _SPI_CLK_IDLE_LOW | _SPI_FIRST_CLK_EDGE_TRANSITION |
+	   				   _SPI_MSB_FIRST | _SPI_SS_DISABLE | _SPI_SSM_ENABLE | _SPI_SSI_1,
+	   				   &_GPIO_MODULE_SPI3_PC10_11_12);
+    // Open resource file for read
+    Mmc_Fat_Assign("%FILE_NAME", 0);
+    Mmc_Fat_Reset(&res_file_size);
+  }
+}
+INIT_EXT_MEM_CODE_END
+
+GET_DATA_CODE_START
+char* TFT_Get_Data(unsigned long offset, unsigned long count, unsigned long *num) {
+unsigned long start_sector;
+unsigned int fpos;
+
+  start_sector = Mmc_Get_File_Write_Sector() + offset/512;
+  fpos = (unsigned long)offset%512;
+
+  if(start_sector == currentSector+1) {
+    Mmc_Multi_Read_Sector(f16_sector.fSect);
+    currentSector = start_sector;
+  } else if (start_sector != currentSector) {
+    if(currentSector != -1)
+      Mmc_Multi_Read_Stop();
+    Mmc_Multi_Read_Start(start_sector);
+    Mmc_Multi_Read_Sector(f16_sector.fSect);
+    currentSector = start_sector;
+  }
+
+  if(count>512-fpos)
+    *num = 512-fpos;
+  else
+    *num = count;
+
+  return f16_sector.fSect+fpos;
+}
+GET_DATA_CODE_END
+
+RSRC_FORMAT = CODE
+RSRC_JPEG2BMP = True
+RSRC_FILESYS  = True
+EXT_RSRC      = False
+ONE_PIXEL_SPACE_WIDTH    = False
+PROJECT_INFO_END
